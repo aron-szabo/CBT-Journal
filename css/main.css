@@ -1,0 +1,97 @@
+#mainInput{
+	width: 80%;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightblue;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.closeButton{
+		height:1em;
+}
+
+.highlight{	
+	background-color: yellow;
+}
+
+.distortionDiv{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	background-color: antiquewhite;
+	border-radius: 5px;
+}
+
+.distortionRow1{
+	display:flex;
+	align-items: center;
+}
+
+.distortionRow2{
+	display:flex;
+	align-items: center;
+}
+	
+.distortionPTag{
+	width:50%;
+	margin: 1em;
+}
+
+.distortionSelectContainer{
+	width:50%;
+}
+
+.distortionSelectTag{
+
+}
+		
+.descriptionP{
+	width:50%;
+	padding: 1em;
+}
+
+.replacementTextContainer{
+	width:50%;
+}
+
+#buttonHolder1{
+	width: 80%;
+	margin: 0 auto;
+	text-align: end;
+}
+
+.finishButtonDiv{
+	width: 80%;
+	margin: 0 auto;
+	text-align: end;
+}
+
+#title{
+	width:80%;
+	margin:0 auto;
+	margin-bottom:.5em;
+	text-align:center;
+}
+
+@media screen and (max-width: 420px) {
+
+	.distortionRow1, .distortionRow2{
+		display:inline-block;
+	}
+
+	.distortionRow1{
+		margin-bottom:1em;
+	}
+
+	.distortionPTag, .distortionSelectContainer, .replacementTextContainer, .descriptionP{
+		width:auto;
+	}
+
+}
+		
+		
+
+		
